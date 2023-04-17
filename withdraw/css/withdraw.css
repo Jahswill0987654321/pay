@@ -1,0 +1,27 @@
+select, input{
+    margin-top: 30px;
+    margin-left: 55px;
+    width: 35%;
+    height: 50px;
+
+}
+.max{
+    position: relative;
+    right: 60px;
+    top: 25px;
+    color: black;
+}
+.max:hover{
+    color: orange;
+   
+}
+.arrow{
+    color: black;
+    margin-top: 30px;
+    margin-right: 437px;
+}
+.arrow:hover{
+    border: none;
+    
+    
+}

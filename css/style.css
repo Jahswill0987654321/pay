@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h4{
+    float: right;
+    margin-right: 30px;
+}
+body{
+   background-color: rgb(211, 204, 204);
+}
+/*////////////// Navigation Area starts////////////*/
+
+.nav{
+    border: solid rgb(209, 181, 181) 1px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    align-content: center;
+    width:60%;
+    height: 500px;
+    background-color: rgba(160, 157, 157, 0);
+}
+.nav_content{
+    height:55px;
+    background-color: rgb(102, 91, 91);
+}
+a{
+    float: right;
+    margin: 20px;
+    text-decoration: none;
+    color: rgba(247, 163, 9, 0.63);
+}
+a:hover{
+    border-bottom: 1px solid orange ;
+    color: rgb(255, 255, 255);
+}
+/*////////////// Navigation Area Ends ////////////*/
+.content{
+    margin-top: 50px;
+    
+}
+input{
+    margin-top: 30px;
+    margin-left: 55px;
+    width: 40%;
+    height: 50px;
+}
+button{
+    margin-top: 30px;
+    margin-left: 30%;
+    width: 40%;
+    height: 50px;
+    background-color: rgba(255, 166, 0, 0.397);
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgba(255, 166, 0, 0.514);
+}
+select{
+    margin-top: 30px;
+    margin-left: 55px;
+    width: 40%;
+    height: 50px;
+}
+h3{
+    font-size: 60px;
+    text-align: center;
+    color: orange;
+}
+/*////////////// Tables ////////////*/
+table{
+    margin-top: 2%;
+    margin-right: 5%;
+}
+td, th{
+    margin: 40px;
+    font-size: 15px;
+    padding: 20px;
+    
+}
+td{
+    margin: 50px;
+}
+thead{
+    background-color: rgba(219, 154, 34, 0.788);
+}
+.currencies{
+    background-color:rgb(71, 69, 69) ;
+    color:white;
+}
+h1,h2,h3,p{
+    text-transform: capitalize;
+}
+/*
+@media  screen and (min-width:768px){
+    body{
+        margin: 30px;
+        font-size: 20px;
+        width: 100%;
+    
+    }
+    h4{
+        float: right;
+        margin-right: 10%;
+    }
+    .nav{
+        border: none;
+        margin: 200px auto 0;
+        width: 80%;
+        align-content: center;
+        height: 500px;
+        background-color: rgba(160, 157, 157, 0);
+        padding-left:5%;
+        padding-right:5%;
+    }
+    table{
+        width: 80%;
+    }
+    .height{
+        display: none;
+    }
+
+}
+
+    
